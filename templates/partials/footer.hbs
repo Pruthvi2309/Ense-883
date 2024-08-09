@@ -1,0 +1,11 @@
+<footer>
+    <p id="year">
+        &copy; {{year}} Created by 👩🏻‍💻 Pruthvi Patel ॐ
+    </p>
+</footer>
+
+<script>
+    const year = new Date().getFullYear();
+    const footerText = `&copy; ${year} Created by 👩🏻‍💻 Pruthvi Patel ॐ`;
+    document.getElementById('year').innerHTML = footerText;
+</script>
