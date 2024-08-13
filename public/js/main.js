@@ -10,7 +10,7 @@ const getInfo = async(event)=> {
     event.preventDefault();
     let cityval = cityName.value;
     if(cityval === ""){
-        city_name.innerText=`Please write city name before search`;
+        city_name.innerText=`Please write city name`;
         datahide.classList.add('data_hide');
 
     }else{
